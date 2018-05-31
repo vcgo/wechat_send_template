@@ -1,0 +1,39 @@
+# 配置文件
+
+[wechat]
+# 若只能获取access_token ，需要修改代码
+"app_id" = "xxxx"
+"app_secret" = "xxxx"
+
+[template]
+
+template_id = "xxxxx"
+url = "http://xxxx.com/"
+send_time = 1979-05-27T07:32:00-08:00
+test_user = ["xxxx", "xxxx"]
+
+[miniprogram]
+appid = "xxxxx"
+pagepath = "index?foo=bar"
+
+[data]
+
+  [data.first]
+  value = "xxxx"
+  color = "#xxxxx"
+
+  [data.keyword1]
+  value = "xxxx"
+  color = "#xxxxx"
+
+  [data.keyword2]
+  value = "xxxx"
+  color = "#xxxxx"
+
+  [data.keyword3]
+  value = "xxxx"
+  color = "#xxxxx"
+
+  [data.remark]
+  value = "xxxx"
+  color = "#xxxxx"
